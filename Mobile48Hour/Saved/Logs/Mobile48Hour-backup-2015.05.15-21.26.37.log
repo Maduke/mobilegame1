@@ -1,0 +1,1135 @@
+﻿Log file open, 05/15/15 17:34:25
+LogInit:Display: Running engine for game: Mobile48Hour
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.16-00.34.25:747][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.16-00.34.25:798][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.16-00.34.25:813][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.16-00.34.25:826][  0]LogInit: Object subsystem initialized
+[2015.05.16-00.34.25:828][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.16-00.34.25:828][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.16-00.34.25:828][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.16-00.34.25:828][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.16-00.34.25:828][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.16-00.34.25:828][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.16-00.34.25:829][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.16-00.34.25:829][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.16-00.34.25:851][  0]LogInit: Computer: DAVOPCX64
+[2015.05.16-00.34.25:851][  0]LogInit: User: David
+[2015.05.16-00.34.25:851][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.16-00.34.25:851][  0]LogInit: High frequency timer resolution =3.418037 MHz
+[2015.05.16-00.34.25:851][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.05.16-00.34.25:851][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.34.25:851][  0]LogMemory: Process Physical Memory: 48.27 MB used, 48.27 MB peak
+[2015.05.16-00.34.25:851][  0]LogMemory: Process Virtual Memory: 28.41 MB used, 28.41 MB peak
+[2015.05.16-00.34.25:851][  0]LogMemory: Physical Memory: 5233.32 MB used, 8073.93 MB total
+[2015.05.16-00.34.25:851][  0]LogMemory: Virtual Memory: 277.64 MB used, 8388608.00 MB total
+[2015.05.16-00.34.25:869][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.05.16-00.34.25:870][  0]LogD3D11RHI: Adapter has 1003MB of dedicated video memory, 0MB of dedicated system memory, and 3780MB of shared system memory, 2 output[s]
+[2015.05.16-00.34.25:872][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.05.16-00.34.25:872][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.05.16-00.34.25:872][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.16-00.34.25:877][  0]LogRHI: Texture pool is 702 MB (70% of 1003 MB)
+[2015.05.16-00.34.25:881][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.05.16-00.34.25:942][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.16-00.34.26:002][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.16-00.34.26:002][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.16-00.34.26:092][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.16-00.34.28:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.16-00.34.28:851][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.16-00.34.28:907][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.16-00.34.28:954][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.16-00.34.28:954][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.16-00.34.28:954][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.16-00.34.28:954][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.16-00.34.29:071][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.16-00.34.29:082][  0]LogDerivedDataCache: Using Local data cache path C:/Users/David/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.16-00.34.29:366][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.16-00.34.29:366][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.16-00.34.29:737][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.16-00.34.29:805][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.16-00.34.30:500][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.16-00.34.30:693][  0]SourceControl: Info Source control is disabled
+[2015.05.16-00.34.30:693][  0]SourceControl: Info Source control is disabled
+[2015.05.16-00.34.30:693][  0]SourceControl: Info Source control is disabled
+[2015.05.16-00.34.30:693][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.16-00.34.30:693][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.16-00.34.30:701][  0]SourceControl: Info Source control is disabled
+[2015.05.16-00.34.30:880][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.16-00.34.30:880][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.16-00.34.30:955][  0]LogEngine: Initializing Engine...
+[2015.05.16-00.34.33:117][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.05.16-00.34.33:129][  0]LogInit: FAudioDevice initialized.
+[2015.05.16-00.34.33:161][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.16-00.34.33:190][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/David/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.16-00.34.33:197][  0]LogInit: Texture streaming: Enabled
+[2015.05.16-00.34.33:279][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.16-00.34.33:279][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.16-00.34.33:279][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.16-00.34.33:279][  0]LogAnalytics: SetUserId 63bad7584199a80b18f5d19af3640327|847b49c4ca63452480b7439378717c51|d31b456e-061b-4b71-818e-0d4e346df735
+[2015.05.16-00.34.33:279][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.16-00.34.33:297][  0]LogInit: Transaction tracking system initialized
+[2015.05.16-00.34.33:442][  0]BlueprintLog: New page: Editor Load
+[2015.05.16-00.34.33:473][  0]LogAssetRegistry: FAssetRegistry took 0.0093 seconds to start up
+[2015.05.16-00.34.33:473][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.16-00.34.33:953][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.16-00.34.34:278][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.16-00.34.34:742][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.05.16-00.34.34:772][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.16-00.34.34:773][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.16-00.34.34:777][  0]LogConsoleResponse:Display: 
+[2015.05.16-00.34.34:994][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.16-00.34.35:123][  0]SourceControl: Info Source control is disabled
+[2015.05.16-00.34.35:123][  0]Cmd: MAP LOAD FILE="../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/MenuAndLevels/InfiPlayLVL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.16-00.34.35:634][  0]LightingResults: New page: Lighting Build
+[2015.05.16-00.34.35:645][  0]MapCheck: New page: Map Check
+[2015.05.16-00.34.35:645][  0]LightingResults: New page: Lighting Build
+[2015.05.16-00.34.35:652][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000155E2520
+[2015.05.16-00.34.42:150][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.16-00.34.42:151][  0]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.34.42:152][  0]Cmd: MAP CHECKDEP
+[2015.05.16-00.34.42:152][  0]MapCheck: New page: InfiPlayLVL - May 15, 2015, 10:34:42 AM
+[2015.05.16-00.34.42:227][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.488ms to complete.
+[2015.05.16-00.34.42:227][  0]LogFileHelpers: Loading map 'InfiPlayLVL' took 7.104
+[2015.05.16-00.34.43:432][  0]LogCollectionManager: Loaded 0 collections in 0.002173 seconds
+[2015.05.16-00.34.43:491][  0]LogContentBrowser: Native class hierarchy populated in 0.0328 seconds. Added 1696 classes and 261 folders.
+[2015.05.16-00.34.44:625][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2015.05.16-00.34.46:887][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.16-00.34.46:900][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.16-00.34.46:936][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.16-00.34.47:053][  0]LogLoad: Full Startup: 25.62 seconds (BP compile: 0.81 seconds)
+[2015.05.16-00.34.48:447][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.05.16-00.34.48:906][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x632 (Frame:4).
+[2015.05.16-00.34.49:559][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2015.05.16-00.34.51:234][  6]LogAssetRegistry: Asset discovery search completed in 17.7702 seconds
+[2015.05.16-00.35.10:923][ 65]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.35.10:923][ 65]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:35:10 AM)
+[2015.05.16-00.35.10:929][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005709s)
+[2015.05.16-00.35.10:930][ 65]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2015.05.16-00.35.10:930][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.006316s)
+[2015.05.16-00.35.11:096][ 65]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.35.11:233][ 65]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.35.11:242][ 65]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.35.11
+[2015.05.16-00.35.11:293][ 65]LogWorld: Bringing up level for play took: 0.059608
+[2015.05.16-00.35.11:384][ 65]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.296
+[2015.05.16-00.35.20:602][ 21]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B28A8E0
+[2015.05.16-00.35.25:789][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.05.16-00.35.27:025][656]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2015.05.16-00.35.28:061][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.05.16-00.35.29:047][826]Cmd: DELETE
+[2015.05.16-00.35.29:047][826]Cmd: ACTOR DELETE
+[2015.05.16-00.35.29:179][826]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.16-00.35.29:191][826]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.05.16-00.35.30:062][927]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube2)
+[2015.05.16-00.35.32:284][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2015.05.16-00.35.32:586][148]Cmd: DELETE
+[2015.05.16-00.35.32:587][148]Cmd: ACTOR DELETE
+[2015.05.16-00.35.32:587][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.05.16-00.35.32:603][148]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.05.16-00.35.35:808][341]LogSavePackage: Save=142.672821ms
+[2015.05.16-00.35.35:808][341]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVLA3AEF01146879EF9F7C6698469C5E39A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/MenuAndLevels/InfiPlayLVL.umap'
+[2015.05.16-00.35.35:847][341]LogFileHelpers: Saving map 'InfiPlayLVL' took 1.485
+[2015.05.16-00.36.38:347][297]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (MusicList)
+[2015.05.16-00.36.44:821][916]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.05.16-00.37.07:572][350]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.37.07:572][350]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:37:07 AM)
+[2015.05.16-00.37.07:579][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006319s)
+[2015.05.16-00.37.07:579][350]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2015.05.16-00.37.07:580][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.006998s)
+[2015.05.16-00.37.07:613][350]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.37.07:615][350]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.37.07:619][350]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.37.07
+[2015.05.16-00.37.07:619][350]LogWorld: Bringing up level for play took: 0.003891
+[2015.05.16-00.37.07:622][350]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.06
+[2015.05.16-00.37.11:556][802]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve InfiPlayLVL.umap
+[2015.05.16-00.37.11:620][803]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve InfiPlayLVL.umap
+[2015.05.16-00.37.11:620][803]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.37.11:620][803]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.37.11:631][803]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E23100
+[2015.05.16-00.37.11:634][803]Cmd: MEM
+[2015.05.16-00.37.11:644][803]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.37.11:645][803]LogMemory: Process Physical Memory: 489.24 MB used, 491.56 MB peak
+[2015.05.16-00.37.11:645][803]LogMemory: Process Virtual Memory: 385.20 MB used, 389.15 MB peak
+[2015.05.16-00.37.11:645][803]LogMemory: Physical Memory: 4748.14 MB used, 8073.93 MB total
+[2015.05.16-00.37.11:645][803]LogMemory: Virtual Memory: 955.11 MB used, 8388608.00 MB total
+[2015.05.16-00.37.11:645][803]LogMemory: 
+[2015.05.16-00.37.11:645][803]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.37.11:650][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005779s)
+[2015.05.16-00.37.11:651][803]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2015.05.16-00.37.11:651][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.006550s)
+[2015.05.16-00.37.11:651][803]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.37.11:653][803]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.37.11:657][803]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.37.11
+[2015.05.16-00.37.11:657][803]LogWorld: Bringing up level for play took: 0.003701
+[2015.05.16-00.37.12:734][922]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015762C00
+[2015.05.16-00.37.15:100][170]MapCheck: New page: Map Check
+[2015.05.16-00.37.15:198][170]Cmd: MAP REBUILD ALLVISIBLE
+[2015.05.16-00.37.15:198][170]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.05.16-00.37.15:422][170]LightingResults: New page: Lighting Build - May 15, 2015, 10:37:15 AM
+[2015.05.16-00.37.26:933][170]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2015.05.16-00.37.27:929][170]LogEditorBuildUtils: Build time 0:00:12
+[2015.05.16-00.37.46:487][140]LogEditorViewport: Clicking Background
+[2015.05.16-00.37.49:543][493]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.05.16-00.38.00:038][463]Cmd: DELETE
+[2015.05.16-00.38.00:038][463]Cmd: ACTOR DELETE
+[2015.05.16-00.38.00:039][463]LogEditorActor: Deleted Actor: Brush
+[2015.05.16-00.38.00:076][463]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2015.05.16-00.38.01:658][639]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.38.01:658][639]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:38:01 AM)
+[2015.05.16-00.38.01:662][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004250s)
+[2015.05.16-00.38.01:663][639]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2015.05.16-00.38.01:663][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.004929s)
+[2015.05.16-00.38.01:691][639]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.38.01:693][639]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.38.01:697][639]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.38.01
+[2015.05.16-00.38.01:697][639]LogWorld: Bringing up level for play took: 0.003505
+[2015.05.16-00.38.01:700][639]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.017
+[2015.05.16-00.38.34:344][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E23D80
+[2015.05.16-00.38.58:336][435]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.05.16-00.39.07:469][316]MapCheck: New page: Map Check
+[2015.05.16-00.39.07:500][316]Cmd: MAP REBUILD ALLVISIBLE
+[2015.05.16-00.39.07:500][316]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.05.16-00.39.07:547][316]LightingResults: New page: Lighting Build - May 15, 2015, 10:39:07 AM
+[2015.05.16-00.39.12:065][316]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.16-00.39.12:065][316]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.16-00.39.12:065][316]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.16-00.39.12:065][316]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.16-00.39.12:065][316]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.16-00.39.12:065][316]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.16-00.39.12:522][316]LogEditorBuildUtils: Build time 0:00:05
+[2015.05.16-00.39.14:134][389]Job is a success!
+[2015.05.16-00.39.14:483][390]Lightmass on DAVOPCX64: 728 ms total, 137 ms importing, 0 ms setup, 256 ms photons, 293 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 1.89 sec total, 0 ms processing.
+[2015.05.16-00.39.14:658][390]LogStaticLightingSystem: Illumination: 7.06 sec (5 ms encoding lightmaps)
+[2015.05.16-00.39.14:658][390]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.05.16-00.39.14:658][390]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.05.16-00.39.25:078][391]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.16-00.39.25:079][391]MapCheck: New page: InfiPlayLVL - May 15, 2015, 10:39:25 AM
+[2015.05.16-00.39.25:172][391]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.124ms to complete.
+[2015.05.16-00.39.29:063][732]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.39.29:063][732]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:39:29 AM)
+[2015.05.16-00.39.29:068][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004585s)
+[2015.05.16-00.39.29:069][732]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2015.05.16-00.39.29:069][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005250s)
+[2015.05.16-00.39.29:109][732]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.39.29:112][732]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.39.29:119][732]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.39.29
+[2015.05.16-00.39.29:121][732]LogWorld: Bringing up level for play took: 0.007353
+[2015.05.16-00.39.29:126][732]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.558
+[2015.05.16-00.39.39:984][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CDC1620
+[2015.05.16-00.39.46:599][577]Cmd: DELETE
+[2015.05.16-00.39.46:599][577]Cmd: ACTOR DELETE
+[2015.05.16-00.39.46:600][577]LogEditorActor: Deleted Actor: SkyLight
+[2015.05.16-00.39.46:614][577]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.05.16-00.39.59:910][963]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.05.16-00.40.12:237][219]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.05.16-00.40.53:921][693]LogEditorViewport: Clicking Background
+[2015.05.16-00.40.57:657][ 52]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.05.16-00.41.01:988][467]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.05.16-00.41.25:638][597]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.41.25:638][597]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:41:25 AM)
+[2015.05.16-00.41.25:643][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004465s)
+[2015.05.16-00.41.25:644][597]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.05.16-00.41.25:644][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005126s)
+[2015.05.16-00.41.25:674][597]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.41.25:675][597]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.41.25:679][597]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.41.25
+[2015.05.16-00.41.25:680][597]LogWorld: Bringing up level for play took: 0.003828
+[2015.05.16-00.41.25:682][597]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.003
+[2015.05.16-00.41.34:737][656]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023E20680
+[2015.05.16-00.41.41:547][241]MapCheck: New page: Map Check
+[2015.05.16-00.41.41:588][241]Cmd: MAP REBUILD ALLVISIBLE
+[2015.05.16-00.41.41:589][241]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.05.16-00.41.41:645][241]LightingResults: New page: Lighting Build - May 15, 2015, 10:41:41 AM
+[2015.05.16-00.41.46:160][241]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.05.16-00.41.46:160][241]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.05.16-00.41.46:160][241]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.05.16-00.41.46:160][241]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.05.16-00.41.46:160][241]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.05.16-00.41.46:161][241]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.05.16-00.41.46:270][241]LogEditorBuildUtils: Build time 0:00:04
+[2015.05.16-00.41.47:185][297]Job is a success!
+[2015.05.16-00.41.47:324][299]Lightmass on DAVOPCX64: 669 ms total, 100 ms importing, 0 ms setup, 284 ms photons, 262 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 1.68 sec total, 0 ms processing.
+[2015.05.16-00.41.47:328][299]LogStaticLightingSystem: Illumination: 5.65 sec (0 ms encoding lightmaps)
+[2015.05.16-00.41.47:328][299]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.05.16-00.41.47:328][299]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2015.05.16-00.41.48:199][300]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.05.16-00.41.48:199][300]MapCheck: New page: InfiPlayLVL - May 15, 2015, 10:41:48 AM
+[2015.05.16-00.41.48:295][300]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 96.1ms to complete.
+[2015.05.16-00.41.56:060][ 61]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.41.56:060][ 61]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:41:56 AM)
+[2015.05.16-00.41.56:065][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004166s)
+[2015.05.16-00.41.56:065][ 61]LogPlayLevel: PIE: World Init took: (0.000425s)
+[2015.05.16-00.41.56:065][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.004738s)
+[2015.05.16-00.41.56:093][ 61]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.41.56:095][ 61]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.41.56:099][ 61]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.41.56
+[2015.05.16-00.41.56:100][ 61]LogWorld: Bringing up level for play took: 0.003745
+[2015.05.16-00.41.56:102][ 61]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.416
+[2015.05.16-00.41.57:573][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D0609A0
+[2015.05.16-00.42.01:132][521]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.05.16-00.42.05:798][  0]LogEditorViewport: Clicking Background
+[2015.05.16-00.42.07:317][181]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.05.16-00.42.10:974][555]LogEditorViewport: Clicking Background
+[2015.05.16-00.42.12:484][732]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.42.12:484][732]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:42:12 AM)
+[2015.05.16-00.42.12:489][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004345s)
+[2015.05.16-00.42.12:490][732]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2015.05.16-00.42.12:490][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.004951s)
+[2015.05.16-00.42.12:517][732]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.42.12:519][732]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.42.12:523][732]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.42.12
+[2015.05.16-00.42.12:523][732]LogWorld: Bringing up level for play took: 0.003672
+[2015.05.16-00.42.12:526][732]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.84
+[2015.05.16-00.42.13:989][901]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D123420
+[2015.05.16-00.42.17:267][287]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.05.16-00.42.22:663][856]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.05.16-00.42.26:835][279]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.42.26:836][279]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:42:26 AM)
+[2015.05.16-00.42.26:840][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004336s)
+[2015.05.16-00.42.26:841][279]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2015.05.16-00.42.26:841][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005024s)
+[2015.05.16-00.42.26:874][279]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.42.26:877][279]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.42.26:880][279]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.42.26
+[2015.05.16-00.42.26:881][279]LogWorld: Bringing up level for play took: 0.003858
+[2015.05.16-00.42.26:883][279]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.802
+[2015.05.16-00.42.30:294][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D1231A0
+[2015.05.16-00.42.46:604][205]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.05.16-00.42.58:706][395]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.42.58:707][395]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:42:58 AM)
+[2015.05.16-00.42.58:711][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004400s)
+[2015.05.16-00.42.58:712][395]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.05.16-00.42.58:712][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005090s)
+[2015.05.16-00.42.58:742][395]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.42.58:744][395]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.42.58:748][395]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.42.58
+[2015.05.16-00.42.58:749][395]LogWorld: Bringing up level for play took: 0.003749
+[2015.05.16-00.42.58:751][395]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.935
+[2015.05.16-00.43.02:986][890]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.03:049][891]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.03:049][891]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.03:050][891]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.03:064][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F23AE80
+[2015.05.16-00.43.03:064][891]Cmd: MEM
+[2015.05.16-00.43.03:075][891]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.43.03:075][891]LogMemory: Process Physical Memory: 540.65 MB used, 541.71 MB peak
+[2015.05.16-00.43.03:075][891]LogMemory: Process Virtual Memory: 455.02 MB used, 459.00 MB peak
+[2015.05.16-00.43.03:075][891]LogMemory: Physical Memory: 3934.12 MB used, 8073.93 MB total
+[2015.05.16-00.43.03:075][891]LogMemory: Virtual Memory: 1439.80 MB used, 8388608.00 MB total
+[2015.05.16-00.43.03:075][891]LogMemory: 
+[2015.05.16-00.43.03:075][891]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.43.03:080][891]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004673s)
+[2015.05.16-00.43.03:080][891]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2015.05.16-00.43.03:081][891]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005416s)
+[2015.05.16-00.43.03:081][891]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.03:083][891]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.03:086][891]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.03
+[2015.05.16-00.43.03:087][891]LogWorld: Bringing up level for play took: 0.003747
+[2015.05.16-00.43.07:233][376]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.07:296][377]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.07:296][377]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.07:296][377]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.07:307][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA7E2A0
+[2015.05.16-00.43.07:310][377]Cmd: MEM
+[2015.05.16-00.43.07:320][377]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.43.07:320][377]LogMemory: Process Physical Memory: 540.81 MB used, 541.71 MB peak
+[2015.05.16-00.43.07:320][377]LogMemory: Process Virtual Memory: 458.49 MB used, 459.00 MB peak
+[2015.05.16-00.43.07:320][377]LogMemory: Physical Memory: 3936.69 MB used, 8073.93 MB total
+[2015.05.16-00.43.07:320][377]LogMemory: Virtual Memory: 1443.49 MB used, 8388608.00 MB total
+[2015.05.16-00.43.07:320][377]LogMemory: 
+[2015.05.16-00.43.07:320][377]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.43.07:325][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004684s)
+[2015.05.16-00.43.07:326][377]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2015.05.16-00.43.07:326][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005340s)
+[2015.05.16-00.43.07:326][377]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.07:328][377]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.07:331][377]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.07
+[2015.05.16-00.43.07:332][377]LogWorld: Bringing up level for play took: 0.003687
+[2015.05.16-00.43.11:482][862]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.11:545][863]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.11:545][863]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.11:545][863]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.11:556][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA7EE80
+[2015.05.16-00.43.11:558][863]Cmd: MEM
+[2015.05.16-00.43.11:570][863]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.43.11:570][863]LogMemory: Process Physical Memory: 541.69 MB used, 541.71 MB peak
+[2015.05.16-00.43.11:570][863]LogMemory: Process Virtual Memory: 458.47 MB used, 459.00 MB peak
+[2015.05.16-00.43.11:570][863]LogMemory: Physical Memory: 3939.73 MB used, 8073.93 MB total
+[2015.05.16-00.43.11:570][863]LogMemory: Virtual Memory: 1443.24 MB used, 8388608.00 MB total
+[2015.05.16-00.43.11:570][863]LogMemory: 
+[2015.05.16-00.43.11:570][863]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.43.11:575][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004925s)
+[2015.05.16-00.43.11:575][863]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2015.05.16-00.43.11:575][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005630s)
+[2015.05.16-00.43.11:575][863]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.11:577][863]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.11:581][863]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.11
+[2015.05.16-00.43.11:582][863]LogWorld: Bringing up level for play took: 0.003750
+[2015.05.16-00.43.15:734][349]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.15:797][350]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.15:797][350]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.15:797][350]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.15:807][350]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F23BC40
+[2015.05.16-00.43.15:810][350]Cmd: MEM
+[2015.05.16-00.43.15:821][350]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.43.15:821][350]LogMemory: Process Physical Memory: 541.70 MB used, 542.50 MB peak
+[2015.05.16-00.43.15:821][350]LogMemory: Process Virtual Memory: 458.47 MB used, 462.54 MB peak
+[2015.05.16-00.43.15:821][350]LogMemory: Physical Memory: 3940.02 MB used, 8073.93 MB total
+[2015.05.16-00.43.15:821][350]LogMemory: Virtual Memory: 1443.24 MB used, 8388608.00 MB total
+[2015.05.16-00.43.15:821][350]LogMemory: 
+[2015.05.16-00.43.15:821][350]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.43.15:826][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004603s)
+[2015.05.16-00.43.15:826][350]LogPlayLevel: PIE: World Init took: (0.000468s)
+[2015.05.16-00.43.15:826][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005214s)
+[2015.05.16-00.43.15:826][350]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.15:828][350]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.15:832][350]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.15
+[2015.05.16-00.43.15:832][350]LogWorld: Bringing up level for play took: 0.003675
+[2015.05.16-00.43.19:995][837]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.20:058][838]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.20:058][838]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.20:058][838]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.20:069][838]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA7CA40
+[2015.05.16-00.43.20:071][838]Cmd: MEM
+[2015.05.16-00.43.20:082][838]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.43.20:082][838]LogMemory: Process Physical Memory: 541.70 MB used, 542.50 MB peak
+[2015.05.16-00.43.20:082][838]LogMemory: Process Virtual Memory: 458.47 MB used, 462.54 MB peak
+[2015.05.16-00.43.20:082][838]LogMemory: Physical Memory: 3940.03 MB used, 8073.93 MB total
+[2015.05.16-00.43.20:082][838]LogMemory: Virtual Memory: 1443.24 MB used, 8388608.00 MB total
+[2015.05.16-00.43.20:082][838]LogMemory: 
+[2015.05.16-00.43.20:082][838]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.43.20:087][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004664s)
+[2015.05.16-00.43.20:088][838]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2015.05.16-00.43.20:088][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005336s)
+[2015.05.16-00.43.20:088][838]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.20:090][838]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.20:093][838]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.20
+[2015.05.16-00.43.20:094][838]LogWorld: Bringing up level for play took: 0.003745
+[2015.05.16-00.43.33:547][406]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.33:612][407]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve InfiPlayLVL.umap
+[2015.05.16-00.43.33:612][407]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.33:612][407]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.43.33:623][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA7DF80
+[2015.05.16-00.43.33:625][407]Cmd: MEM
+[2015.05.16-00.43.33:636][407]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.43.33:636][407]LogMemory: Process Physical Memory: 541.70 MB used, 542.50 MB peak
+[2015.05.16-00.43.33:636][407]LogMemory: Process Virtual Memory: 458.45 MB used, 462.54 MB peak
+[2015.05.16-00.43.33:636][407]LogMemory: Physical Memory: 3940.49 MB used, 8073.93 MB total
+[2015.05.16-00.43.33:636][407]LogMemory: Virtual Memory: 1438.43 MB used, 8388608.00 MB total
+[2015.05.16-00.43.33:636][407]LogMemory: 
+[2015.05.16-00.43.33:636][407]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.43.33:641][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004552s)
+[2015.05.16-00.43.33:642][407]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2015.05.16-00.43.33:642][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005219s)
+[2015.05.16-00.43.33:642][407]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.33:644][407]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.33:648][407]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.33
+[2015.05.16-00.43.33:648][407]LogWorld: Bringing up level for play took: 0.003682
+[2015.05.16-00.43.34:712][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FA7C400
+[2015.05.16-00.43.41:446][ 75]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.05.16-00.43.42:631][199]Cmd: DELETE
+[2015.05.16-00.43.42:631][199]Cmd: ACTOR DELETE
+[2015.05.16-00.43.42:633][199]LogEditorActor: Deleted Actor: DirectionalLight
+[2015.05.16-00.43.42:645][199]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.05.16-00.43.44:107][372]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2015.05.16-00.43.51:225][ 88]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.43.51:225][ 88]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:43:51 AM)
+[2015.05.16-00.43.51:230][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004526s)
+[2015.05.16-00.43.51:230][ 88]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2015.05.16-00.43.51:230][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005187s)
+[2015.05.16-00.43.51:260][ 88]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.43.51:262][ 88]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.43.51:265][ 88]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.43.51
+[2015.05.16-00.43.51:266][ 88]LogWorld: Bringing up level for play took: 0.003599
+[2015.05.16-00.43.51:268][ 88]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.418
+[2015.05.16-00.44.39:216][745]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F23ACA0
+[2015.05.16-00.44.43:327][172]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.05.16-00.44.45:532][390]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/MenuAndLevels'
+[2015.05.16-00.44.45:989][439]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Object_BPs'
+[2015.05.16-00.48.42:022][131]LogSavePackage: Save=72.331284ms
+[2015.05.16-00.48.42:022][131]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVL_Auto16C46CE784B7F344827BAA98A7290C7B6.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Autosaves/Game/MenuAndLevels/InfiPlayLVL_Auto1.umap'
+[2015.05.16-00.48.42:028][131]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuAndLevels/InfiPlayLVL' took 0.204
+[2015.05.16-00.48.42:028][131]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2015.05.16-00.48.42:077][131]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Object_BPs/LongBlockRow] ([1] browsable assets)...
+[2015.05.16-00.48.42:112][131]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Object_BPs/LongBlockRow.LongBlockRow]
+[2015.05.16-00.48.42:112][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Object_BPs/LongBlockRow]
+[2015.05.16-00.48.42:907][131]LogSavePackage: Save=702.375061ms
+[2015.05.16-00.48.42:908][131]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/LongBlockRow_Auto17847F656470576F17DD5C6AEE73B9E0A.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Autosaves/Game/Object_BPs/LongBlockRow_Auto1.uasset'
+[2015.05.16-00.48.42:933][131]LogFileHelpers: Auto-saving content packages took 0.905
+[2015.05.16-00.49.20:475][  1]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.16-00.49.59:501][ 20]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.49.59:754][ 20]BlueprintEditorCompileResults: Info [0938.31] Compile of LongBlockRow successful! [in 252 ms]
+[2015.05.16-00.50.00:958][106]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.50.00:958][106]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:50:00 AM)
+[2015.05.16-00.50.00:963][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004575s)
+[2015.05.16-00.50.00:964][106]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2015.05.16-00.50.00:964][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005297s)
+[2015.05.16-00.50.00:998][106]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.50.01:000][106]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.50.01:003][106]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.50.01
+[2015.05.16-00.50.01:004][106]LogWorld: Bringing up level for play took: 0.003587
+[2015.05.16-00.50.01:007][106]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL -0.685
+[2015.05.16-00.50.17:792][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041B62FC0
+[2015.05.16-00.50.38:490][622]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.50.38:742][622]BlueprintEditorCompileResults: Info [0977.30] Compile of LongBlockRow successful! [in 250 ms]
+[2015.05.16-00.50.39:933][732]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.50.39:933][732]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:50:39 AM)
+[2015.05.16-00.50.39:938][732]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004400s)
+[2015.05.16-00.50.39:938][732]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2015.05.16-00.50.39:938][732]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005001s)
+[2015.05.16-00.50.39:970][732]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.50.39:973][732]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.50.39:976][732]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.50.39
+[2015.05.16-00.50.39:976][732]LogWorld: Bringing up level for play took: 0.003510
+[2015.05.16-00.50.39:979][732]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.286
+[2015.05.16-00.50.54:397][417]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve InfiPlayLVL.umap
+[2015.05.16-00.50.54:459][418]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve InfiPlayLVL.umap
+[2015.05.16-00.50.54:459][418]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.50.54:459][418]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.50.54:479][418]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000414867A0
+[2015.05.16-00.50.54:484][418]Cmd: MEM
+[2015.05.16-00.50.54:503][418]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.50.54:503][418]LogMemory: Process Physical Memory: 799.94 MB used, 807.45 MB peak
+[2015.05.16-00.50.54:503][418]LogMemory: Process Virtual Memory: 714.03 MB used, 722.73 MB peak
+[2015.05.16-00.50.54:503][418]LogMemory: Physical Memory: 4210.54 MB used, 8073.93 MB total
+[2015.05.16-00.50.54:503][418]LogMemory: Virtual Memory: 1688.19 MB used, 8388608.00 MB total
+[2015.05.16-00.50.54:503][418]LogMemory: 
+[2015.05.16-00.50.54:503][418]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.50.54:508][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004570s)
+[2015.05.16-00.50.54:508][418]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2015.05.16-00.50.54:508][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005189s)
+[2015.05.16-00.50.54:508][418]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.50.54:510][418]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.50.54:514][418]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.50.54
+[2015.05.16-00.50.54:515][418]LogWorld: Bringing up level for play took: 0.003468
+[2015.05.16-00.50.55:425][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004208F060
+[2015.05.16-00.51.20:484][484]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.51.20:735][484]BlueprintEditorCompileResults: Info [1019.29] Compile of LongBlockRow successful! [in 251 ms]
+[2015.05.16-00.51.22:262][620]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.51.22:262][620]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:51:22 AM)
+[2015.05.16-00.51.22:267][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004441s)
+[2015.05.16-00.51.22:268][620]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2015.05.16-00.51.22:268][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005175s)
+[2015.05.16-00.51.22:299][620]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.51.22:301][620]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.51.22:304][620]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.51.22
+[2015.05.16-00.51.22:305][620]LogWorld: Bringing up level for play took: 0.003498
+[2015.05.16-00.51.22:307][620]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.614
+[2015.05.16-00.51.33:962][971]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001577C4A0
+[2015.05.16-00.52.12:491][554]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.52.12:756][554]BlueprintEditorCompileResults: Info [1071.31] Compile of LongBlockRow successful! [in 264 ms]
+[2015.05.16-00.52.32:628][842]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.52.32:889][842]BlueprintEditorCompileResults: Info [1091.45] Compile of LongBlockRow successful! [in 260 ms]
+[2015.05.16-00.52.34:164][951]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.52.34:164][951]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:52:34 AM)
+[2015.05.16-00.52.34:168][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004199s)
+[2015.05.16-00.52.34:169][951]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2015.05.16-00.52.34:169][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.004790s)
+[2015.05.16-00.52.34:210][951]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.52.34:214][951]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.52.34:221][951]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.52.34
+[2015.05.16-00.52.34:223][951]LogWorld: Bringing up level for play took: 0.007940
+[2015.05.16-00.52.34:228][951]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.534
+[2015.05.16-00.52.35:647][104]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F9B49A0
+[2015.05.16-00.52.40:127][548]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.52.40:127][548]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:52:40 AM)
+[2015.05.16-00.52.40:132][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004407s)
+[2015.05.16-00.52.40:133][548]LogPlayLevel: PIE: World Init took: (0.000450s)
+[2015.05.16-00.52.40:133][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.004999s)
+[2015.05.16-00.52.40:162][548]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.52.40:164][548]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.52.40:168][548]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.52.40
+[2015.05.16-00.52.40:168][548]LogWorld: Bringing up level for play took: 0.003507
+[2015.05.16-00.52.40:171][548]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.478
+[2015.05.16-00.53.33:984][835]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046DB71A0
+[2015.05.16-00.54.31:796][262]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.54.32:059][262]BlueprintEditorCompileResults: Info [1210.61] Compile of LongBlockRow successful! [in 263 ms]
+[2015.05.16-00.54.33:771][350]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.16-00.54.33:771][350]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:54:33 AM)
+[2015.05.16-00.54.33:776][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004477s)
+[2015.05.16-00.54.33:777][350]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2015.05.16-00.54.33:777][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005096s)
+[2015.05.16-00.54.33:807][350]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.54.33:809][350]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.54.33:812][350]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.54.33
+[2015.05.16-00.54.33:813][350]LogWorld: Bringing up level for play took: 0.003597
+[2015.05.16-00.54.33:815][350]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.12
+[2015.05.16-00.54.38:661][906]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000042110180
+[2015.05.16-00.55.25:250][135]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.55.25:509][135]BlueprintEditorCompileResults: Info [1264.06] Compile of LongBlockRow successful! [in 258 ms]
+[2015.05.16-00.55.36:547][857]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Player'
+[2015.05.16-00.55.37:755][938]LogSavePackage: Save=78.904060ms
+[2015.05.16-00.55.37:755][938]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVLDC42AE4A41700B49EECCC99BCDFC1F46.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/MenuAndLevels/InfiPlayLVL.umap'
+[2015.05.16-00.55.37:796][938]LogFileHelpers: Saving map 'InfiPlayLVL' took 0.329
+[2015.05.16-00.55.37:815][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Object_BPs/LongBlockRow" FILE="../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Object_BPs/LongBlockRow.uasset" SILENT=true
+[2015.05.16-00.55.38:429][938]LogSavePackage: Save=563.445068ms
+[2015.05.16-00.55.38:429][938]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/LongBlockRow452DE43D4B6D01EE31581A853DCA2014.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Object_BPs/LongBlockRow.uasset'
+[2015.05.16-00.57.02:385][779]LogClass:Warning: Property cCol of SKEL_Player_char_C struct type mismatch CollisionProfileName/LinearColor for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.05.16-00.57.02:440][779]LogClass:Warning: Property cCol of Player_char_C struct type mismatch CollisionProfileName/LinearColor for package:  FObjectReader. If that property got renamed, add an ActiveStructRedirect.
+[2015.05.16-00.57.09:952][577]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.16-00.57.09:952][577]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.16-00.57.09:952][577]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.05.16-00.57.42:047][ 61]LogClass:Warning: Type mismatch in MyI of SKEL_Player_char_C - Previous (StructProperty) Current(IntProperty) for package:  FObjectReader
+[2015.05.16-00.58.14:091][345]BlueprintLog: New page: Compile Player_char
+[2015.05.16-00.58.14:348][345]BlueprintEditorCompileResults: Info [1432.90] Compile of Player_char successful! [in 256 ms]
+[2015.05.16-00.58.49:182][974]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-00.58.49:444][974]BlueprintEditorCompileResults: Info [1468.00] Compile of LongBlockRow successful! [in 262 ms]
+[2015.05.16-00.58.51:064][113]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-00.58.51:067][113]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-00.58.51:166][113]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-00.58.51:250][113]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-00.58.51:494][113]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-00.58.51:756][113]LogPlayLevel: PIE:  Blueprint regeneration took 692 ms (4 blueprints)
+[2015.05.16-00.58.51:757][113]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 10:58:51 AM)
+[2015.05.16-00.58.51:762][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004647s)
+[2015.05.16-00.58.51:762][113]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2015.05.16-00.58.51:762][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005309s)
+[2015.05.16-00.58.51:794][113]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.58.51:796][113]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.58.51:799][113]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.58.51
+[2015.05.16-00.58.51:800][113]LogWorld: Bringing up level for play took: 0.003519
+[2015.05.16-00.58.51:802][113]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.103
+[2015.05.16-00.59.50:469][774]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve InfiPlayLVL.umap
+[2015.05.16-00.59.50:534][775]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve InfiPlayLVL.umap
+[2015.05.16-00.59.50:534][775]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.59.50:534][775]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-00.59.50:578][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B1FE480
+[2015.05.16-00.59.50:578][775]Cmd: MEM
+[2015.05.16-00.59.50:597][775]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-00.59.50:597][775]LogMemory: Process Physical Memory: 962.89 MB used, 964.03 MB peak
+[2015.05.16-00.59.50:597][775]LogMemory: Process Virtual Memory: 877.73 MB used, 879.27 MB peak
+[2015.05.16-00.59.50:598][775]LogMemory: Physical Memory: 4370.32 MB used, 8073.93 MB total
+[2015.05.16-00.59.50:598][775]LogMemory: Virtual Memory: 1847.01 MB used, 8388608.00 MB total
+[2015.05.16-00.59.50:598][775]LogMemory: 
+[2015.05.16-00.59.50:598][775]Allocator Stats for TBB: (not implemented)
+[2015.05.16-00.59.50:602][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004674s)
+[2015.05.16-00.59.50:603][775]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2015.05.16-00.59.50:603][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005508s)
+[2015.05.16-00.59.50:603][775]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-00.59.50:605][775]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-00.59.50:609][775]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-17.59.50
+[2015.05.16-00.59.50:609][775]LogWorld: Bringing up level for play took: 0.003589
+[2015.05.16-01.00.56:821][305]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve InfiPlayLVL.umap
+[2015.05.16-01.00.56:884][306]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve InfiPlayLVL.umap
+[2015.05.16-01.00.56:884][306]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.00.56:884][306]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.00.56:904][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FA1B240
+[2015.05.16-01.00.56:908][306]Cmd: MEM
+[2015.05.16-01.00.56:928][306]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.00.56:928][306]LogMemory: Process Physical Memory: 962.94 MB used, 964.03 MB peak
+[2015.05.16-01.00.56:928][306]LogMemory: Process Virtual Memory: 877.73 MB used, 879.27 MB peak
+[2015.05.16-01.00.56:928][306]LogMemory: Physical Memory: 4376.15 MB used, 8073.93 MB total
+[2015.05.16-01.00.56:928][306]LogMemory: Virtual Memory: 1847.01 MB used, 8388608.00 MB total
+[2015.05.16-01.00.56:928][306]LogMemory: 
+[2015.05.16-01.00.56:928][306]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.00.56:932][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004432s)
+[2015.05.16-01.00.56:933][306]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2015.05.16-01.00.56:933][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005082s)
+[2015.05.16-01.00.56:933][306]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.00.56:935][306]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.00.56:938][306]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.00.56
+[2015.05.16-01.00.56:939][306]LogWorld: Bringing up level for play took: 0.003546
+[2015.05.16-01.00.58:153][440]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000511ED260
+[2015.05.16-01.01.53:405][714]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-01.01.53:409][714]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-01.01.53:485][714]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-01.01.53:560][714]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-01.01.53:761][714]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-01.01.54:010][714]LogPlayLevel: PIE:  Blueprint regeneration took 605 ms (4 blueprints)
+[2015.05.16-01.01.54:011][714]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 11:01:54 AM)
+[2015.05.16-01.01.54:016][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004632s)
+[2015.05.16-01.01.54:016][714]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2015.05.16-01.01.54:016][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005354s)
+[2015.05.16-01.01.54:044][714]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.01.54:046][714]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.01.54:050][714]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.01.54
+[2015.05.16-01.01.54:050][714]LogWorld: Bringing up level for play took: 0.003411
+[2015.05.16-01.01.54:053][714]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 0.352
+[2015.05.16-01.01.57:358][ 92]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve InfiPlayLVL.umap
+[2015.05.16-01.01.57:421][ 93]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve InfiPlayLVL.umap
+[2015.05.16-01.01.57:421][ 93]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.01.57:421][ 93]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.01.57:444][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000434484A0
+[2015.05.16-01.01.57:444][ 93]Cmd: MEM
+[2015.05.16-01.01.57:464][ 93]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.01.57:464][ 93]LogMemory: Process Physical Memory: 962.94 MB used, 966.96 MB peak
+[2015.05.16-01.01.57:464][ 93]LogMemory: Process Virtual Memory: 877.76 MB used, 881.80 MB peak
+[2015.05.16-01.01.57:464][ 93]LogMemory: Physical Memory: 4369.76 MB used, 8073.93 MB total
+[2015.05.16-01.01.57:464][ 93]LogMemory: Virtual Memory: 1842.20 MB used, 8388608.00 MB total
+[2015.05.16-01.01.57:464][ 93]LogMemory: 
+[2015.05.16-01.01.57:464][ 93]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.01.57:469][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004635s)
+[2015.05.16-01.01.57:469][ 93]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2015.05.16-01.01.57:469][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005285s)
+[2015.05.16-01.01.57:469][ 93]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.01.57:472][ 93]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.01.57:475][ 93]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.01.57
+[2015.05.16-01.01.57:475][ 93]LogWorld: Bringing up level for play took: 0.003441
+[2015.05.16-01.02.01:544][564]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve InfiPlayLVL.umap
+[2015.05.16-01.02.01:609][565]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve InfiPlayLVL.umap
+[2015.05.16-01.02.01:609][565]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.02.01:609][565]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.02.01:629][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F83FA60
+[2015.05.16-01.02.01:634][565]Cmd: MEM
+[2015.05.16-01.02.01:654][565]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.02.01:654][565]LogMemory: Process Physical Memory: 962.90 MB used, 966.96 MB peak
+[2015.05.16-01.02.01:654][565]LogMemory: Process Virtual Memory: 872.90 MB used, 881.80 MB peak
+[2015.05.16-01.02.01:654][565]LogMemory: Physical Memory: 4369.71 MB used, 8073.93 MB total
+[2015.05.16-01.02.01:654][565]LogMemory: Virtual Memory: 1832.57 MB used, 8388608.00 MB total
+[2015.05.16-01.02.01:654][565]LogMemory: 
+[2015.05.16-01.02.01:654][565]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.02.01:659][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004627s)
+[2015.05.16-01.02.01:659][565]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2015.05.16-01.02.01:659][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005304s)
+[2015.05.16-01.02.01:659][565]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.02.01:661][565]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.02.01:665][565]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.02.01
+[2015.05.16-01.02.01:665][565]LogWorld: Bringing up level for play took: 0.003475
+[2015.05.16-01.02.18:898][526]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E0258A0
+[2015.05.16-01.02.53:166][836]LogSavePackage: Save=71.854111ms
+[2015.05.16-01.02.53:166][836]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVL3F8C7B3F4E2F4496F850178DAA1F3037.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/MenuAndLevels/InfiPlayLVL.umap'
+[2015.05.16-01.02.53:204][836]LogFileHelpers: Saving map 'InfiPlayLVL' took 0.267
+[2015.05.16-01.02.53:223][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Object_BPs/LongBlockRow" FILE="../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Object_BPs/LongBlockRow.uasset" SILENT=true
+[2015.05.16-01.02.53:841][836]LogSavePackage: Save=567.117004ms
+[2015.05.16-01.02.53:841][836]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/LongBlockRowBAFADB1849788232B7C47698752BFABE.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Object_BPs/LongBlockRow.uasset'
+[2015.05.16-01.02.53:861][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player_char" FILE="../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Player/Player_char.uasset" SILENT=true
+[2015.05.16-01.02.54:286][836]LogSavePackage: Save=368.713959ms
+[2015.05.16-01.02.54:286][836]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Player_char184D9A1342F44E81AFBA2F887FFFE21C.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Player/Player_char.uasset'
+[2015.05.16-01.02.56:424][ 43]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-01.02.56:428][ 43]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-01.02.56:504][ 43]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-01.02.56:579][ 43]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-01.02.56:783][ 43]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-01.02.57:040][ 43]LogPlayLevel: PIE:  Blueprint regeneration took 615 ms (4 blueprints)
+[2015.05.16-01.02.57:040][ 43]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 11:02:57 AM)
+[2015.05.16-01.02.57:045][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004475s)
+[2015.05.16-01.02.57:046][ 43]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2015.05.16-01.02.57:046][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005112s)
+[2015.05.16-01.02.57:075][ 43]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.02.57:077][ 43]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.02.57:080][ 43]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.02.57
+[2015.05.16-01.02.57:081][ 43]LogWorld: Bringing up level for play took: 0.003292
+[2015.05.16-01.02.57:083][ 43]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 1.381
+[2015.05.16-01.03.29:494][740]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBC7380
+[2015.05.16-01.04.22:033][420]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-01.04.22:036][420]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-01.04.22:115][420]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-01.04.22:191][420]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-01.04.22:399][420]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-01.04.22:658][420]LogPlayLevel: PIE:  Blueprint regeneration took 624 ms (4 blueprints)
+[2015.05.16-01.04.22:658][420]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 11:04:22 AM)
+[2015.05.16-01.04.22:663][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004477s)
+[2015.05.16-01.04.22:663][420]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2015.05.16-01.04.22:664][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005159s)
+[2015.05.16-01.04.22:697][420]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.04.22:699][420]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.04.22:702][420]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.04.22
+[2015.05.16-01.04.22:703][420]LogWorld: Bringing up level for play took: 0.003516
+[2015.05.16-01.04.22:705][420]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 1.002
+[2015.05.16-01.04.26:851][886]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve InfiPlayLVL.umap
+[2015.05.16-01.04.26:916][887]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve InfiPlayLVL.umap
+[2015.05.16-01.04.26:916][887]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.04.26:916][887]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.04.26:940][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBC6B60
+[2015.05.16-01.04.26:940][887]Cmd: MEM
+[2015.05.16-01.04.26:961][887]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.04.26:961][887]LogMemory: Process Physical Memory: 971.73 MB used, 974.34 MB peak
+[2015.05.16-01.04.26:961][887]LogMemory: Process Virtual Memory: 885.99 MB used, 888.66 MB peak
+[2015.05.16-01.04.26:961][887]LogMemory: Physical Memory: 4405.44 MB used, 8073.93 MB total
+[2015.05.16-01.04.26:961][887]LogMemory: Virtual Memory: 1855.13 MB used, 8388608.00 MB total
+[2015.05.16-01.04.26:961][887]LogMemory: 
+[2015.05.16-01.04.26:961][887]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.04.26:966][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004656s)
+[2015.05.16-01.04.26:966][887]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2015.05.16-01.04.26:966][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005457s)
+[2015.05.16-01.04.26:966][887]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.04.26:969][887]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.04.26:972][887]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.04.26
+[2015.05.16-01.04.26:973][887]LogWorld: Bringing up level for play took: 0.003658
+[2015.05.16-01.04.55:055][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FBC76A0
+[2015.05.16-01.05.10:435][840]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-01.05.10:438][840]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-01.05.10:535][840]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-01.05.10:638][840]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-01.05.10:872][840]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-01.05.11:165][840]LogPlayLevel: PIE:  Blueprint regeneration took 730 ms (4 blueprints)
+[2015.05.16-01.05.11:166][840]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 11:05:11 AM)
+[2015.05.16-01.05.11:171][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004290s)
+[2015.05.16-01.05.11:171][840]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2015.05.16-01.05.11:171][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.004915s)
+[2015.05.16-01.05.11:213][840]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.05.11:216][840]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.05.11:219][840]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.05.11
+[2015.05.16-01.05.11:219][840]LogWorld: Bringing up level for play took: 0.003431
+[2015.05.16-01.05.11:222][840]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 1.518
+[2015.05.16-01.05.16:896][197]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve InfiPlayLVL.umap
+[2015.05.16-01.05.16:978][198]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve InfiPlayLVL.umap
+[2015.05.16-01.05.16:978][198]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.05.16:979][198]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.05.17:025][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F538680
+[2015.05.16-01.05.17:025][198]Cmd: MEM
+[2015.05.16-01.05.17:048][198]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.05.17:048][198]LogMemory: Process Physical Memory: 971.75 MB used, 974.34 MB peak
+[2015.05.16-01.05.17:048][198]LogMemory: Process Virtual Memory: 886.00 MB used, 888.66 MB peak
+[2015.05.16-01.05.17:048][198]LogMemory: Physical Memory: 4539.03 MB used, 8073.93 MB total
+[2015.05.16-01.05.17:048][198]LogMemory: Virtual Memory: 1850.07 MB used, 8388608.00 MB total
+[2015.05.16-01.05.17:048][198]LogMemory: 
+[2015.05.16-01.05.17:048][198]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.05.17:053][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004510s)
+[2015.05.16-01.05.17:053][198]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2015.05.16-01.05.17:054][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005223s)
+[2015.05.16-01.05.17:054][198]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.05.17:056][198]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.05.17:059][198]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.05.17
+[2015.05.16-01.05.17:060][198]LogWorld: Bringing up level for play took: 0.003583
+[2015.05.16-01.05.19:287][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FA1B1A0
+[2015.05.16-01.05.24:468][637]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-01.05.24:472][637]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-01.05.24:564][637]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-01.05.24:653][637]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-01.05.24:882][637]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-01.05.25:172][637]LogPlayLevel: PIE:  Blueprint regeneration took 703 ms (4 blueprints)
+[2015.05.16-01.05.25:172][637]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 11:05:25 AM)
+[2015.05.16-01.05.25:178][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005661s)
+[2015.05.16-01.05.25:179][637]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2015.05.16-01.05.25:179][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.006888s)
+[2015.05.16-01.05.25:215][637]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.05.25:217][637]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.05.25:220][637]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.05.25
+[2015.05.16-01.05.25:221][637]LogWorld: Bringing up level for play took: 0.003421
+[2015.05.16-01.05.25:224][637]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 1.52
+[2015.05.16-01.05.44:836][846]LogPackageName: SearchForPackageOnDisk took   0.075s to resolve InfiPlayLVL.umap
+[2015.05.16-01.05.44:908][847]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve InfiPlayLVL.umap
+[2015.05.16-01.05.44:908][847]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.05.44:908][847]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.05.44:935][847]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CE211C0
+[2015.05.16-01.05.44:935][847]Cmd: MEM
+[2015.05.16-01.05.44:958][847]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.05.44:958][847]LogMemory: Process Physical Memory: 971.77 MB used, 974.34 MB peak
+[2015.05.16-01.05.44:958][847]LogMemory: Process Virtual Memory: 881.21 MB used, 888.66 MB peak
+[2015.05.16-01.05.44:958][847]LogMemory: Physical Memory: 4528.69 MB used, 8073.93 MB total
+[2015.05.16-01.05.44:958][847]LogMemory: Virtual Memory: 1850.07 MB used, 8388608.00 MB total
+[2015.05.16-01.05.44:958][847]LogMemory: 
+[2015.05.16-01.05.44:958][847]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.05.44:963][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004740s)
+[2015.05.16-01.05.44:963][847]LogPlayLevel: PIE: World Init took: (0.000494s)
+[2015.05.16-01.05.44:964][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005396s)
+[2015.05.16-01.05.44:964][847]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.05.44:965][847]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.05.44:969][847]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.05.44
+[2015.05.16-01.05.44:969][847]LogWorld: Bringing up level for play took: 0.003522
+[2015.05.16-01.05.57:596][658]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve InfiPlayLVL.umap
+[2015.05.16-01.05.57:676][659]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve InfiPlayLVL.umap
+[2015.05.16-01.05.57:676][659]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.05.57:676][659]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.05.57:705][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FA1AFC0
+[2015.05.16-01.05.57:713][659]Cmd: MEM
+[2015.05.16-01.05.57:744][659]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.05.57:744][659]LogMemory: Process Physical Memory: 971.80 MB used, 974.34 MB peak
+[2015.05.16-01.05.57:744][659]LogMemory: Process Virtual Memory: 886.04 MB used, 888.66 MB peak
+[2015.05.16-01.05.57:744][659]LogMemory: Physical Memory: 4538.71 MB used, 8073.93 MB total
+[2015.05.16-01.05.57:744][659]LogMemory: Virtual Memory: 1854.88 MB used, 8388608.00 MB total
+[2015.05.16-01.05.57:744][659]LogMemory: 
+[2015.05.16-01.05.57:744][659]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.05.57:748][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004673s)
+[2015.05.16-01.05.57:749][659]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2015.05.16-01.05.57:749][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005289s)
+[2015.05.16-01.05.57:749][659]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.05.57:751][659]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.05.57:754][659]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.05.57
+[2015.05.16-01.05.57:755][659]LogWorld: Bringing up level for play took: 0.003602
+[2015.05.16-01.06.10:389][475]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve InfiPlayLVL.umap
+[2015.05.16-01.06.10:470][476]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve InfiPlayLVL.umap
+[2015.05.16-01.06.10:470][476]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.06.10:470][476]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.06.10:499][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000511ED080
+[2015.05.16-01.06.10:506][476]Cmd: MEM
+[2015.05.16-01.06.10:537][476]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.06.10:537][476]LogMemory: Process Physical Memory: 971.78 MB used, 974.34 MB peak
+[2015.05.16-01.06.10:538][476]LogMemory: Process Virtual Memory: 886.00 MB used, 888.66 MB peak
+[2015.05.16-01.06.10:538][476]LogMemory: Physical Memory: 4534.94 MB used, 8073.93 MB total
+[2015.05.16-01.06.10:538][476]LogMemory: Virtual Memory: 1850.07 MB used, 8388608.00 MB total
+[2015.05.16-01.06.10:538][476]LogMemory: 
+[2015.05.16-01.06.10:538][476]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.06.10:542][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004501s)
+[2015.05.16-01.06.10:543][476]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2015.05.16-01.06.10:543][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005141s)
+[2015.05.16-01.06.10:543][476]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.06.10:545][476]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.06.10:548][476]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.06.10
+[2015.05.16-01.06.10:549][476]LogWorld: Bringing up level for play took: 0.003551
+[2015.05.16-01.06.12:480][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F539DA0
+[2015.05.16-01.11.06:916][686]BlueprintLog: New page: Compile Player_char
+[2015.05.16-01.11.07:173][686]BlueprintEditorCompileResults: Info [2205.72] Compile of Player_char successful! [in 257 ms]
+[2015.05.16-01.14.55:938][295]LogSavePackage: Save=70.971733ms
+[2015.05.16-01.14.55:938][295]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVL_Auto293033A504E2D05821F253CA0DE4E8EBC.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Autosaves/Game/MenuAndLevels/InfiPlayLVL_Auto2.umap'
+[2015.05.16-01.14.55:944][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuAndLevels/InfiPlayLVL' took 0.204
+[2015.05.16-01.14.55:944][295]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2015.05.16-01.14.55:998][295]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Player/Player_char] ([1] browsable assets)...
+[2015.05.16-01.14.56:036][295]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/Player_char.Player_char]
+[2015.05.16-01.14.56:036][295]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/Player_char]
+[2015.05.16-01.14.56:585][295]LogSavePackage: Save=489.658539ms
+[2015.05.16-01.14.56:586][295]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Player_char_Auto2E2EF1CE946A4AE309D3FADA2C2E2C9FD.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Autosaves/Game/Player/Player_char_Auto2.uasset'
+[2015.05.16-01.14.56:605][295]LogFileHelpers: Auto-saving content packages took 0.661
+[2015.05.16-01.15.08:274][312]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.16-01.15.08:277][312]LogPlayLevel: [PIE] Compiling Infi_GameMode before PIE...
+[2015.05.16-01.15.08:379][312]LogPlayLevel: [PIE] Compiling LongBlockRow before PIE...
+[2015.05.16-01.15.08:605][312]LogPlayLevel: [PIE] Compiling HUDWIDGET before PIE...
+[2015.05.16-01.15.08:681][312]LogPlayLevel: [PIE] Compiling Player_char before PIE...
+[2015.05.16-01.15.08:897][312]LogPlayLevel: PIE:  Blueprint regeneration took 623 ms (4 blueprints)
+[2015.05.16-01.15.08:897][312]PIE: New page: PIE session: InfiPlayLVL (May 15, 2015, 11:15:08 AM)
+[2015.05.16-01.15.08:902][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004759s)
+[2015.05.16-01.15.08:903][312]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2015.05.16-01.15.08:903][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005486s)
+[2015.05.16-01.15.09:024][312]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.15.09:026][312]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.15.09:030][312]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.15.09
+[2015.05.16-01.15.09:031][312]LogWorld: Bringing up level for play took: 0.004185
+[2015.05.16-01.15.09:042][312]PIE: Info Play in editor start time for /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL 1.331
+[2015.05.16-01.15.09:156][312]LogRenderer:Warning: Reallocating scene render targets to support 1208x656 (Frame:69232).
+[2015.05.16-01.16.01:300][968]LogPackageName: SearchForPackageOnDisk took   0.065s to resolve InfiPlayLVL.umap
+[2015.05.16-01.16.01:368][969]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve InfiPlayLVL.umap
+[2015.05.16-01.16.01:368][969]LogNet: Browse: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.16.01:369][969]LogLoad: LoadMap: /Game/MenuAndLevels/InfiPlayLVL
+[2015.05.16-01.16.01:393][969]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A536020
+[2015.05.16-01.16.01:393][969]Cmd: MEM
+[2015.05.16-01.16.01:413][969]LogMemory: Platform Memory Stats for Windows
+[2015.05.16-01.16.01:413][969]LogMemory: Process Physical Memory: 1042.80 MB used, 1043.80 MB peak
+[2015.05.16-01.16.01:413][969]LogMemory: Process Virtual Memory: 947.76 MB used, 956.54 MB peak
+[2015.05.16-01.16.01:413][969]LogMemory: Physical Memory: 4482.79 MB used, 8073.93 MB total
+[2015.05.16-01.16.01:413][969]LogMemory: Virtual Memory: 1919.22 MB used, 8388608.00 MB total
+[2015.05.16-01.16.01:413][969]LogMemory: 
+[2015.05.16-01.16.01:413][969]Allocator Stats for TBB: (not implemented)
+[2015.05.16-01.16.01:418][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004597s)
+[2015.05.16-01.16.01:418][969]LogPlayLevel: PIE: World Init took: (0.000476s)
+[2015.05.16-01.16.01:418][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MenuAndLevels/InfiPlayLVL.InfiPlayLVL to /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL (0.005218s)
+[2015.05.16-01.16.01:418][969]LogWorld: Game class is 'Infi_GameMode_C'
+[2015.05.16-01.16.01:421][969]LogAIModule: Creating AISystem for world InfiPlayLVL
+[2015.05.16-01.16.01:424][969]LogWorld: Bringing World /Game/MenuAndLevels/UEDPIE_0_InfiPlayLVL.InfiPlayLVL up for play (max tick rate 0) at 2015.05.15-18.16.01
+[2015.05.16-01.16.01:425][969]LogWorld: Bringing up level for play took: 0.003420
+[2015.05.16-01.16.03:155][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FAC8A40
+[2015.05.16-01.16.06:782][379]LogSavePackage: Save=72.273643ms
+[2015.05.16-01.16.06:782][379]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVLDF55BA9F4F551B1EDF0CE39CCBD6B942.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/MenuAndLevels/InfiPlayLVL.umap'
+[2015.05.16-01.16.06:820][379]LogFileHelpers: Saving map 'InfiPlayLVL' took 0.261
+[2015.05.16-01.16.06:836][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Player_char" FILE="../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Player/Player_char.uasset" SILENT=true
+[2015.05.16-01.16.07:252][379]LogSavePackage: Save=368.680634ms
+[2015.05.16-01.16.07:252][379]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Player_char342380AA47BE0CC3D873FD939CDC87EE.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Player/Player_char.uasset'
+[2015.05.16-01.16.51:544][ 61]BlueprintLog: New page: Compile LongBlockRow
+[2015.05.16-01.16.51:795][ 61]BlueprintEditorCompileResults: Info [2550.33] Compile of LongBlockRow successful! [in 251 ms]
+[2015.05.16-01.26.06:847][189]LogSavePackage: Save=71.280678ms
+[2015.05.16-01.26.06:847][189]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVL_Auto391C62989484A403C8374B2A54E9D806F.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Autosaves/Game/MenuAndLevels/InfiPlayLVL_Auto3.umap'
+[2015.05.16-01.26.06:853][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MenuAndLevels/InfiPlayLVL' took 0.242
+[2015.05.16-01.26.06:853][189]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.242
+[2015.05.16-01.26.06:905][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Object_BPs/LongBlockRow] ([1] browsable assets)...
+[2015.05.16-01.26.06:925][189]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Object_BPs/LongBlockRow.LongBlockRow]
+[2015.05.16-01.26.06:925][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/Object_BPs/LongBlockRow]
+[2015.05.16-01.26.07:668][189]LogSavePackage: Save=688.261719ms
+[2015.05.16-01.26.07:668][189]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/LongBlockRow_Auto3735A6FE54EE7D3F70624C7ACEF35E113.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/Autosaves/Game/Object_BPs/LongBlockRow_Auto3.uasset'
+[2015.05.16-01.26.07:673][189]LogFileHelpers: Auto-saving content packages took 0.820
+[2015.05.16-01.39.14:911][928]LogSavePackage: Save=72.306709ms
+[2015.05.16-01.39.14:911][928]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/InfiPlayLVL5742675344E36F6AAE6CB3855F95EA06.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/MenuAndLevels/InfiPlayLVL.umap'
+[2015.05.16-01.39.14:950][928]LogFileHelpers: Saving map 'InfiPlayLVL' took 0.287
+[2015.05.16-01.39.14:955][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Object_BPs/LongBlockRow" FILE="../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Object_BPs/LongBlockRow.uasset" SILENT=true
+[2015.05.16-01.39.15:528][928]LogSavePackage: Save=502.532898ms
+[2015.05.16-01.39.15:528][928]LogSavePackage: Moving '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Saved/LongBlockRow7AA7646F4D21306029BBA5A408E15BDF.tmp' to '../../../../../../Users/David/Documents/Unreal Projects/Mobile48Hour/Content/Object_BPs/LongBlockRow.uasset'
+[2015.05.16-01.39.21:125][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F9B5760
+[2015.05.16-01.39.21:125][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005015F920
+[2015.05.16-01.39.23:814][677]Cmd: QUIT_EDITOR
+[2015.05.16-01.39.24:033][677]LogExit: Preparing to exit.
+[2015.05.16-01.39.25:070][677]LogExit: Editor shut down
+[2015.05.16-01.39.25:071][677]LogExit: Transaction tracking system shut down
+[2015.05.16-01.39.25:074][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D175E40
+[2015.05.16-01.39.25:075][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B509620
+[2015.05.16-01.39.25:075][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DE39DA0
+[2015.05.16-01.39.25:075][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001DE387C0
+[2015.05.16-01.39.25:075][677]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AECD260
+[2015.05.16-01.39.25:154][677]LogExit: Object subsystem successfully closed.
+[2015.05.16-01.39.25:203][677]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.05.16-01.39.25:203][677]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.05.16-01.39.25:203][677]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.05.16-01.39.25:203][677]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.05.16-01.39.25:203][677]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.05.16-01.39.25:212][677]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.05.16-01.39.25:740][677]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.05.16-01.39.25:741][677]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.05.16-01.39.25:827][677]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.05.16-01.39.25:827][677]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.05.16-01.39.25:827][677]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.05.16-01.39.25:829][677]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.05.16-01.39.26:045][677]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.05.16-01.39.26:046][677]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.05.16-01.39.26:047][677]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.05.16-01.39.26:047][677]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.05.16-01.39.26:047][677]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.05.16-01.39.26:148][677]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.05.16-01.39.26:148][677]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.05.16-01.39.26:151][677]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.05.16-01.39.26:151][677]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.05.16-01.39.26:152][677]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.05.16-01.39.26:159][677]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.05.16-01.39.26:170][677]LogDerivedDataCache: Shutdown
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.05.16-01.39.26:170][677]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.05.16-01.39.26:171][677]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.05.16-01.39.26:171][677]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.05.16-01.39.26:171][677]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.05.16-01.39.26:171][677]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.05.16-01.39.26:171][677]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.05.16-01.39.26:171][677]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.05.16-01.39.26:177][677]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.05.16-01.39.26:178][677]LogExit: Exiting.
+[2015.05.16-01.39.26:187][677]Log file closed, 05/15/15 18:39:26

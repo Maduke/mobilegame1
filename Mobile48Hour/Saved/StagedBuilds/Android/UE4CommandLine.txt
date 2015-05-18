@@ -1,0 +1,1 @@
+../../../Mobile48Hour/Mobile48Hour.uproject  /Game/MenuAndLevels/InfiPlayLVL -Messaging -SessionId=56F8BADB45C7677C3C662B9DEE82BCCB -SessionOwner=David -SessionName='Play On Device' -iterative
